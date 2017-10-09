@@ -7,6 +7,7 @@
 //
 
 #import "REViewController.h"
+#import "TestBPod.h"
 
 @interface REViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)btnAction:(id)sender {
+    TestBPod *pod = [[TestBPod alloc] init];
+    [pod showAlertController];
 }
 
 - (void)didReceiveMemoryWarning

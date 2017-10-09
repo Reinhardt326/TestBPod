@@ -1,0 +1,22 @@
+{
+  "name": "TestBPod",
+  "version": "0.1.0",
+  "summary": "A short description of TestBPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/315187183@qq.com/TestBPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "315187183@qq.com": "hao.hu@56qq.com"
+  },
+  "source": {
+    "git": "https://github.com/315187183@qq.com/TestBPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestBPod/Classes/**/*"
+}
