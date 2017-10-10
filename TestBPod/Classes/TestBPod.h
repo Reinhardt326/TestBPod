@@ -10,5 +10,6 @@
 @interface TestBPod : NSObject
 
 - (void)showAlertController;
+- (void)showAlertControllerStyleActionSheet;
 
 @end

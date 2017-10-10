@@ -23,7 +23,8 @@
 
 - (IBAction)btnAction:(id)sender {
     TestBPod *pod = [[TestBPod alloc] init];
-    [pod showAlertController];
+//    [pod showAlertController];
+    [pod showAlertControllerStyleActionSheet];
 }
 
 - (void)didReceiveMemoryWarning
